@@ -168,7 +168,7 @@ export default function Home() {
                         {['C', 'C++', 'Python', 'JavaScript', 'SQL', 'Bash'].map((lang) => (
                           <div key={lang} className="flex items-center">
                             <span className="w-24">{lang}</span>
-                            <Progress value={Math.random() * 40 + 60} className="flex-grow" />
+                            <Progress value={Math.random() * 100} className="flex-grow" />
                           </div>
                         ))}
                       </div>
