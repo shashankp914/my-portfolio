@@ -153,7 +153,7 @@ export default function Home() {
               animate="visible"
               exit="hidden"
             >
-              <Card className="bg-gray-900 border-green-500">
+              <Card className="bg-white border-green-500">
                 <CardHeader>
                   <CardTitle className="flex items-center text-green-500">
                     <Code className="mr-2" />
