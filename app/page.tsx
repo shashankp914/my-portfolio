@@ -7,7 +7,7 @@ import { Button } from "@/components/ui/button"
 import { Progress } from "@/components/ui/progress"
 import { Badge } from "@/components/ui/badge"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
-import {Code, Mail, Github, Linkedin, Briefcase, GraduationCap, Award, Shield } from 'lucide-react'
+import {Code, Mail, Github, Linkedin, Briefcase, GraduationCap, Award, Shield, Link } from 'lucide-react'
 
 export default function Home() {
   const [text, setText] = useState('')
@@ -264,7 +264,7 @@ export default function Home() {
           </Button>
           <Button variant="outline" size="icon" className="bg-gray-800 text-green-400">
             <Linkedin className="h-4 w-4" />
-            <span className="sr-only"><a href="https://www.linkedin.com/in/shashank-pandey-932498135/">LinkedIn</a></span>
+            <span className="sr-only"><Link to="https://www.linkedin.com/in/shashank-pandey-932498135/">LinkedIn</Link></span>
           </Button>
         </div>
       </motion.footer>
