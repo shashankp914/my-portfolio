@@ -260,7 +260,7 @@ export default function Home() {
           </Button>
           <Button variant="outline" size="icon" className="bg-gray-800 text-green-400">
             <Github className="h-4 w-4" />
-            <span className="sr-only"><a href="https://github.com/shashankp914">GitHub</a></span>
+            <span className="sr-only"><a href="https://github.com/shashankp914/">GitHub</a></span>
           </Button>
           <Button variant="outline" size="icon" className="bg-gray-800 text-green-400">
             <Linkedin className="h-4 w-4" />
