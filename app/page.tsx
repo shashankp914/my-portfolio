@@ -262,12 +262,10 @@ export default function Home() {
             <Github className="h-4 w-4" />
             <span className="sr-only"><a href="https://github.com/shashankp914">GitHub</a></span>
           </Button>
-          <a href="https://www.linkedin.com/in/shashank-pandey-932498135/">
           <Button variant="outline" size="icon" className="bg-gray-800 text-green-400">
             <Linkedin className="h-4 w-4" />
-            <span className="sr-only">LinkedIn</span>
+            <span className="sr-only"><a href="https://www.linkedin.com/in/shashank-pandey-932498135/">LinkedIn</a></span>
           </Button>
-          </a>
         </div>
       </motion.footer>
     </div>
