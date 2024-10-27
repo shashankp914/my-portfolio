@@ -165,16 +165,16 @@ export default function Home() {
                     <div>
                       <h3 className="font-semibold mb-2">Programming Languages</h3>
                       <div className="space-y-2">
-                        {[{ lang: 'C', value: 185 },
-                          { lang: 'C++', value: 185 },
-                          { lang: 'Python', value: 190 },
-                          { lang: 'JavaScript', value: 175 },
-                          { lang: 'SQL', value: 190 },
-                          { lang: 'Bash', value: 180 },
+                        {[{ lang: 'C', value: 85 },
+                          { lang: 'C++', value: 85 },
+                          { lang: 'Python', value: 90 },
+                          { lang: 'JavaScript', value: 75 },
+                          { lang: 'SQL', value: 90 },
+                          { lang: 'Bash', value: 80 },
                           ].map(({lang, value}) => (
                           <div key={lang} className="flex items-center">
                             <span className="w-24">{lang}</span>
-                            <Progress value={value} className="flex-grow" />
+                            <Progress value={value} className="flex-grow bg-white" />
                           </div>
                         ))}
                       </div>
