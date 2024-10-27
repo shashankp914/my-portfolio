@@ -254,7 +254,7 @@ export default function Home() {
       >
         <p>&copy; 2024 Shashank Pandey | Securing the digital frontier</p>
         <div className="flex justify-center space-x-4 mt-4">
-        <a href="shashankp914@gmail.com">
+          <a href="shashankp914@gmail.com">
           <Button variant="outline" size="icon" className="bg-gray-800 text-green-400">
             <Mail className="h-4 w-4" />
             <span className="sr-only">Email</span>
