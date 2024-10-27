@@ -254,14 +254,18 @@ export default function Home() {
       >
         <p>&copy; 2024 Shashank Pandey | Securing the digital frontier</p>
         <div className="flex justify-center space-x-4 mt-4">
+        <a href="shashankp914@gmail.com">
           <Button variant="outline" size="icon" className="bg-gray-800 text-green-400">
             <Mail className="h-4 w-4" />
-            <span className="sr-only"><a href="shashankp914@gmail.com">Email</a></span>
+            <span className="sr-only">Email</span>
           </Button>
+          </a>  
+          <a href="https://github.com/shashankp914/">
           <Button variant="outline" size="icon" className="bg-gray-800 text-green-400">
             <Github className="h-4 w-4" />
-            <span className="sr-only"><a href="https://github.com/shashankp914/">GitHub</a></span>
+            <span className="sr-only">GitHub</span>
           </Button>
+          </a>
           <a href="https://www.linkedin.com/in/shashank-pandey-932498135/">
           <Button variant="outline" size="icon" className="bg-gray-800 text-green-400">
             <Linkedin className="h-4 w-4" />
