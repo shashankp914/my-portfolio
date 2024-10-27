@@ -11,7 +11,7 @@ import {Code, Mail, Github, Linkedin, Briefcase, GraduationCap, Award, Shield } 
 
 export default function Home() {
   const [text, setText] = useState('')
-  const fullText = "Welcome to Shashank Pandey's Cybersecurity Portfolio"
+  const fullText = "Welcome to My World!"
   
   useEffect(() => {
     let index = 0
@@ -256,15 +256,15 @@ export default function Home() {
         <div className="flex justify-center space-x-4 mt-4">
           <Button variant="outline" size="icon" className="bg-gray-800 text-green-400">
             <Mail className="h-4 w-4" />
-            <span className="sr-only">Email</span>
+            <a href="shashankp914@gmail.com"><span className="sr-only">Email</span></a>
           </Button>
           <Button variant="outline" size="icon" className="bg-gray-800 text-green-400">
             <Github className="h-4 w-4" />
-            <span className="sr-only">GitHub</span>
+            <a href="https://github.com/shashankp914"><span className="sr-only">GitHub</span></a>
           </Button>
           <Button variant="outline" size="icon" className="bg-gray-800 text-green-400">
             <Linkedin className="h-4 w-4" />
-            <span className="sr-only">LinkedIn</span>
+            <a href="https://www.linkedin.com/in/shashank-pandey-932498135/"><span className="sr-only">LinkedIn</span></a>
           </Button>
         </div>
       </motion.footer>
