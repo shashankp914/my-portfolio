@@ -174,8 +174,7 @@ export default function Home() {
                           ].map(({lang, value}) => (
                           <div key={lang} className="flex items-center">
                             <span className="w-24">{lang}</span>
-                            <span className="text-white text-sm absolute right-0 pr-2">{value}%</span>
-                            <Progress value={value} className="flex-grow bg-gray-900" />
+                            <Progress value={value} className="flex-grow text-white" />
                           </div>
                         ))}
                       </div>
