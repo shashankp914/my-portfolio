@@ -153,7 +153,7 @@ export default function Home() {
               animate="visible"
               exit="hidden"
             >
-              <Card className="bg-white border-green-500">
+              <Card className="bg-gray-900 border-green-500">
                 <CardHeader>
                   <CardTitle className="flex items-center text-green-500">
                     <Code className="mr-2" />
@@ -174,7 +174,7 @@ export default function Home() {
                           ].map(({lang, value}) => (
                           <div key={lang} className="flex items-center">
                             <span className="w-24">{lang}</span>
-                            <Progress value={value} className="flex-grow text-white" />
+                            <Progress value={value} className="flex-grow"  style={{ backgroundColor: 'transparent', color: 'white' }} />
                           </div>
                         ))}
                       </div>
