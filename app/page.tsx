@@ -256,15 +256,15 @@ export default function Home() {
         <div className="flex justify-center space-x-4 mt-4">
           <Button variant="outline" size="icon" className="bg-gray-800 text-green-400">
             <Mail className="h-4 w-4" />
-            <a href="shashankp914@gmail.com"><span className="sr-only">Email</span></a>
+            <span className="sr-only"><a href="shashankp914@gmail.com">Email</a></span>
           </Button>
           <Button variant="outline" size="icon" className="bg-gray-800 text-green-400">
             <Github className="h-4 w-4" />
-            <a href="https://github.com/shashankp914"><span className="sr-only">GitHub</span></a>
+            <span className="sr-only"><a href="https://github.com/shashankp914">GitHub</a></span>
           </Button>
           <Button variant="outline" size="icon" className="bg-gray-800 text-green-400">
             <Linkedin className="h-4 w-4" />
-            <a href="https://www.linkedin.com/in/shashank-pandey-932498135/"><span className="sr-only">LinkedIn</span></a>
+            <span className="sr-only"><a href="https://www.linkedin.com/in/shashank-pandey-932498135/">LinkedIn</a></span>
           </Button>
         </div>
       </motion.footer>
